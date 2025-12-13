@@ -11,8 +11,10 @@ ISMOSHARE is a **PHP-based academic resource sharing platform** that allows user
 * 👥 Role management (admin, formateur, stagiaire)
 * 📂 Resource comment and upload/download
 * 🗂️ Organized resources by module / filière
-* 🛡️ Secure file handling
-
+* 🗣️ Forum (Publish questions-Comment on questions-React to comments-
+* 📢 Annonces 
+* 👤 Utilisateurs (Manage user roles and account status by admin)
+✔️ Validation (Admin and formateurs can validate or reject publications/comments)
 ---
 
 ## 📁 Project Structure
@@ -92,9 +94,9 @@ http://localhost/ISMOSHARE/
 ```
 ISMOSHARE/uploaded_files/
 ```
-
-* Downloads are handled securely via `telecharger.php`
-* Each download is logged in the database
+## 🔐 first log in 
+email : direction@ismo.ma
+password : 1212
 
 ---
 
