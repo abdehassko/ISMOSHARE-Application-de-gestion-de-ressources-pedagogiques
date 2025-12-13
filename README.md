@@ -82,7 +82,7 @@ others/code-conexionAvecDB.php
 5. Run the app:
 
 ```
-http://localhost/ISMOSHARE/
+http://localhost/ISMOSHARE/pages/connexion/page-conexion.php
 ```
 
 ---
