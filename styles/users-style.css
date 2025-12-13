@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--light-gray);
+  line-height: 1.6;
+}
+
+h1 {
+  color: #1e3a5f;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.containeru {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.search-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-box {
+  position: relative;
+}
+
+.search-box input {
+  padding: 8px 12px 8px 35px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  width: 220px;
+  font-size: 14px;
+}
+
+.search-box::before {
+  content: "🔍";
+  position: absolute;
+  left: 12px;
+  top: 8px;
+  color: #666;
+  font-size: 14px;
+}
+
+.filter-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 12px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #444;
+}
+
+.filter-button::after {
+  content: "▼";
+  font-size: 10px;
+  color: #666;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.export-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #444;
+}
+
+.add-user-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  background-color: #0d6efd;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  color: white;
+  font-weight: 500;
+}
+
+.add-user-button::before {
+  content: "+";
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  max-height: 400px; /* Set a maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+  display: block; /* Ensure the table behaves as a block element for scrolling */
+}
+
+thead {
+  background-color: #f8f9fa;
+}
+
+th {
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 14px;
+  color: #444;
+  border-bottom: 1px solid #eee;
+  font-weight: 600;
+}
+
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 14px;
+  color: #333;
+}
+
+th.sortable {
+  cursor: pointer;
+  position: relative;
+}
+
+th.sortable::after {
+  content: "↓";
+  margin-left: 5px;
+  font-size: 12px;
+  color: #999;
+}
+
+.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 30px;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  width: 85px;
+}
+
+.status-active {
+  background-color: #d1e7dd;
+  color: #0f5132;
+}
+
+.status-inactive {
+  background-color: #cfd4da;
+  color: #383d41;
+}
+
+.status-banned {
+  background-color: #f8d7da;
+  color: #842029;
+}
+
+.status-pending {
+  background-color: #fff3cd;
+  color: #664d03;
+}
+
+.status-suspended {
+  background-color: #ffe5b4;
+  color: #804000;
+}
+
+.action-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.action-icon {
+  color: #666;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}
+
+.pagination-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.pagination-button {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #444;
+}
+
+.pagination-button.active {
+  background-color: #0d6efd;
+  color: white;
+  border-color: #0d6efd;
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: #f8f9fa;
+}
+
+.select-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.select-wrapper select {
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  appearance: none;
+  padding-right: 25px;
+  background-color: white;
+}
+
+.select-wrapper::after {
+  content: "▼";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: 10px;
+  color: #666;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.checkbox.checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  position: relative;
+}
+
+.checkbox.checked::after {
+  content: "✓";
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 12px;
+}
+#validationPopup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  width: 400px;
+  max-width: 90%;
+  text-align: center;
+  animation: fadeIn 0.3s ease-out;
+  border: 1px solid #e0e0e0;
+}
+
+#popupMessage {
+  font-size: 18px;
+  margin-bottom: 25px;
+  color: #333;
+  line-height: 1.5;
+}
+
+#validationPopup form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#validationPopup button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 16px;
+}
+
+#validationPopup button[type="submit"][value="valide"] {
+  background-color: #28a745;
+  color: white;
+}
+
+#validationPopup button[type="submit"][value="valide"]:hover {
+  background-color: #218838;
+}
+
+#validationPopup button[type="submit"][value="refusé"] {
+  background-color: #dc3545;
+  color: white;
+}
+
+#validationPopup button[type="submit"][value="refusé"]:hover {
+  background-color: #c82333;
+}
+
+#validationPopup button[type="button"] {
+  background-color: #6c757d;
+  color: white;
+}
+
+#validationPopup button[type="button"]:hover {
+  background-color: #5a6268;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -45%);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}
