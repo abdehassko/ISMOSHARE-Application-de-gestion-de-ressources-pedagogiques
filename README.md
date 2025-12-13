@@ -11,10 +11,10 @@ ISMOSHARE is a **PHP-based academic resource sharing platform** that allows user
 * 👥 Role management (admin, formateur, stagiaire)
 * 📂 Resource comment and upload/download
 * 🗂️ Organized resources by module / filière
-* 🗣️ Forum (Publish questions-Comment on questions-React to comments-
+* 🗣️ Forum (Publish questions-Comment on questions-React to comments)
 * 📢 Annonces 
 * 👤 Utilisateurs (Manage user roles and account status by admin)
-✔️ Validation (Admin and formateurs can validate or reject publications/comments)
+* ✔️ Validation (Admin and formateurs can validate or reject publications/comments)
 ---
 
 ## 📁 Project Structure
