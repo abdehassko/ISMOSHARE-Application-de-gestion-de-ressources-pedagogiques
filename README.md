@@ -100,6 +100,12 @@ password : 1212
 
 ---
 
+### 🖼️ Screenshots
+
+---
+
+### 🚀 Future Improvements
+
 ## 🧑‍💻 Author
 
 **Abderrahim Elhasskouri**
