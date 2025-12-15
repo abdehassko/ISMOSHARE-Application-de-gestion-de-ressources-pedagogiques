@@ -15,6 +15,7 @@ ISMOSHARE is a **PHP-based academic resource sharing platform** that allows user
 * 📢 Annonces 
 * 👤 Utilisateurs (Manage user roles and account status by admin)
 * ✔️ Validation (Admin and formateurs can validate or reject publications/comments)
+* 🔔 Système de notifications en temps réel (nouveaux commentaires, validations, annonces)  
 ---
 
 ## 📁 Project Structure
@@ -101,6 +102,10 @@ password : 1212
 ---
 
 ### 🖼️ Screenshots
+
+* 📱 Version mobile / application responsive pour une meilleure expérience sur smartphones et tablettes  
+* 🔍 Recherche avancée et filtres (par module, filière, type de ressource)  
+* 🌐 Support multilingue (Espagnole / Anglais / Arabe)  
 
 ---
 
