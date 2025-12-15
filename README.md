@@ -103,13 +103,15 @@ password : 1212
 
 ### 🖼️ Screenshots
 
-* 📱 Version mobile / application responsive pour une meilleure expérience sur smartphones et tablettes  
-* 🔍 Recherche avancée et filtres (par module, filière, type de ressource)  
-* 🌐 Support multilingue (Espagnole / Anglais / Arabe)  
+
 
 ---
 
 ### 🚀 Future Improvements
+
+* 📱 Version mobile / application responsive pour une meilleure expérience sur smartphones et tablettes  
+* 🔍 Recherche avancée et filtres (par module, filière, type de ressource)  
+* 🌐 Support multilingue (Espagnole / Anglais / Arabe)  
 
 ## 🧑‍💻 Author
 
