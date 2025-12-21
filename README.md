@@ -102,6 +102,25 @@ password : 1212
 ---
 
 ### 🖼️ Screenshots
+<img width="1366" height="641" alt="2" src="https://github.com/user-attachments/assets/d707e699-a0c0-4ef4-89be-2bf251f2ee1c" />
+<img width="1365" height="643" alt="3" src="https://github.com/user-attachments/assets/bb955a54-218a-4a8d-8950-cda3f5e81457" />
+<img width="1366" height="643" alt="4" src="https://github.com/user-attachments/assets/56510114-16fc-4309-acc7-c2addff02d4f" />
+<img width="489" height="577" alt="5" src="https://github.com/user-attachments/assets/bcd13f2b-64e3-4497-ba7a-5ad86050e6b9" />
+<img width="1366" height="641" alt="6" src="https://github.com/user-attachments/assets/99b0a904-1534-43dc-9a0d-e764ab1a4003" />
+<img width="1366" height="642" alt="7" src="https://github.com/user-attachments/assets/e9f86d37-6b6c-4d23-b3e8-9ea096b929a3" />
+<img width="1344" height="636" alt="9" src="https://github.com/user-attachments/assets/2fdc7f0a-16a3-434c-abc7-18c28f2d04cc" />
+<img width="1366" height="641" alt="10" src="https://github.com/user-attachments/assets/62580501-28a1-42b7-af5d-3fb165e3a625" />
+<img width="1366" height="639" alt="11" src="https://github.com/user-attachments/assets/2b8dd102-58f1-404b-bf23-7a00fc4eb899" />
+<img width="315" height="244" alt="12" src="https://github.com/user-attachments/assets/2aa3b42a-9836-4fca-9895-4886fbbe921c" />
+
+
+
+
+
+
+
+
+
 
 
 
