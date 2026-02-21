@@ -1,4 +1,10 @@
+
 "# ISMOSHARE-Application-de-gestion-de-ressources-pedagogiques" 
+"# you can access to the platforme now : https://ismotetouan.infinityfree.me/" 
+## email : direction@ismo.ma
+## password : 1212
+
+## 🚀 Features
 # ISMOSHARE
 
 ISMOSHARE is a **PHP-based academic resource sharing platform** that allows users to upload, browse,comment, and download educational resources with role-based access and download tracking.
