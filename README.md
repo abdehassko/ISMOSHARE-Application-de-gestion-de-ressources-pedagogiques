@@ -1,5 +1,5 @@
 
-" you can access to the platforme now : https://ismotetouan.infinityfree.me/" 
+" Follow this link so you can access to the platforme : https://ismotetouan.infinityfree.me/" 
 * email : direction@ismo.ma
 * password : 1212
 
